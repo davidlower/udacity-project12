@@ -8,7 +8,8 @@
 
    <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
    <link href="styles.css" rel="stylesheet">
-
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="scripts.js"></script>
    <title>Udacity project 12 - [5-12]</title>
 </head>
 
@@ -26,13 +27,65 @@
 
    <section class="gallery">
       <div class="gallery-container">
-         <img src="img/gta-8.jpg" alt="gta-poster">
-         <img src="img/gta-2.jpg" alt="gta-poster">
-         <img src="img/gta-3.jpg" alt="gta-poster">
-         <img src="img/gta-4.jpg" alt="gta-poster">
-         <img src="img/gta-1.jpg" alt="gta-poster">
-         <img src="img/gta-7.jpg" alt="gta-poster">
+         <div class="img-container">
+            <img src="img/gta-8.jpg" alt="gta-poster">
+            <div class="img-overlay">
+               <p class="image-1">Click to enlarge</p>
+            </div>
+         </div>
+         <div class="img-container">
+            <img src="img/gta-2.jpg" alt="gta-poster">
+            <div class="img-overlay">
+               <p class="image-2">Click to enlarge</p>
+            </div>
+         </div>
+         <div class="img-container">
+            <img src="img/gta-3.jpg" alt="gta-poster">
+            <div class="img-overlay">
+               <p class="image-3">Click to enlarge</p>
+            </div>
+         </div>
+         <div class="img-container">
+            <img src="img/gta-4.jpg" alt="gta-poster">
+            <div class="img-overlay">
+               <p class="image-4">Click to enlarge</p>
+            </div>
+         </div>
+         <div class="img-container">
+            <img src="img/gta-1.jpg" alt="gta-poster">
+            <div class="img-overlay">
+               <p class="image-5">Click to enlarge</p>
+            </div>
+         </div>
+         <div class="img-container">
+            <img src="img/gta-7.jpg" alt="gta-poster">
+            <div class="img-overlay">
+               <p class="image-6">Click to enlarge</p>
+            </div>
+         </div>
       </div>
+   </section>
+
+   <section>
+      <div class="large-overlay overlay-1">
+         <img src="img/gta-8.jpg" alt="gta-poster-enlarged">
+      </div>
+      <div class="large-overlay overlay-2">
+         <img src="img/gta-2.jpg" alt="gta-poster-enlarged">
+      </div>
+      <div class="large-overlay overlay-3">
+         <img src="img/gta-3.jpg" alt="gta-poster-enlarged">
+      </div>
+      <div class="large-overlay overlay-4">
+         <img src="img/gta-4.jpg" alt="gta-poster-enlarged">
+      </div>
+      <div class="large-overlay overlay-5">
+         <img src="img/gta-1.jpg" alt="gta-poster-enlarged">
+      </div>
+      <div class="large-overlay overlay-6">
+         <img src="img/gta-7.jpg" alt="gta-poster-enlarged">
+      </div>
+      <div class="close"></div>
    </section>
 
 </body>
